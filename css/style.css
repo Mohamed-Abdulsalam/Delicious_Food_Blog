@@ -170,10 +170,8 @@ html {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-}
-.Receipies {
-  padding-left: 33px;
-  padding-bottom: 50px;
+  gap: 30px;
+  margin-bottom: 20px;
 }
 .Receipies .img img {
   width: 350px;
