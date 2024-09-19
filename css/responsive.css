@@ -36,7 +36,9 @@
   }
   .article {
     width: 100%;
-    margin: 0;
+    background-image: url(../images/bg-img/bg6.jpg);
+    background-size: cover;
+    background-position: center;
   }
   .article .box {
     width: 100%;
@@ -44,10 +46,11 @@
   }
   .article .box h1 {
     font-size: larger;
-    color: wheat;
+    color: #222121;
+    text-shadow: 1px 2px 5px white;
   }
   .article .box p {
-    margin-top: -35px;
+    margin: -20px 0px;
   }
   .two-box {
     display: block;
