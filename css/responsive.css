@@ -1,0 +1,123 @@
+@media (max-width: 768px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  .nav {
+    display: flex;
+    justify-content: center;
+  }
+  .nav h4 {
+    display: none;
+  }
+  .nav .i-font {
+    display: none;
+  }
+  .logo {
+    display: block;
+  }
+  .logo img {
+    display: block;
+    margin: 20px auto;
+  }
+  .nav-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .nav-links a {
+    padding-bottom: 17px;
+    color: #646161;
+    font-size: small;
+  }
+  .magni {
+    color: white;
+    margin: -45px -16px;
+  }
+  .article {
+    width: 100%;
+    margin: 0;
+  }
+  .article .box {
+    width: 100%;
+    margin: 0 -70px;
+  }
+  .article .box h1 {
+    font-size: larger;
+    color: wheat;
+  }
+  .article .box p {
+    margin-top: -35px;
+  }
+  .two-box {
+    display: block;
+  }
+  .two-box .box-img1 {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .two-box .box-img2 {
+    width: 100%;
+  }
+  .photo h1 {
+    text-align: center;
+    font-size: xx-large;
+  }
+  .photo p {
+    width: 100%;
+  }
+  .photo .btn {
+    text-align: center;
+    padding: 8px;
+    margin-top: 70px;
+  }
+  .subscribe {
+    display: block;
+    margin: 0;
+  }
+  .subscribe .sub-1 {
+    margin: 30px auto;
+    width: 330px;
+  }
+  .subscribe .sub-1 .history {
+    margin: 10px -5px;
+  }
+  .subscribe .sub-2 {
+    text-align: center;
+  }
+  .subscribe .sub-photo {
+    margin: auto;
+  }
+  .subscribe .special {
+    margin: 30px auto;
+  }
+  .footer .footer-1 h3 {
+    text-align: center;
+    margin: 40px auto;
+  }
+  .footer .footer-1 .footer-photo {
+    display: block;
+  }
+  .footer .footer-1 .footer-photo img {
+    display: block;
+    margin: auto;
+    padding-bottom: 15px;
+    width: 340px;
+  }
+  .footer .footer-1 .footer-photo .background-green {
+    position: relative;
+    width: 340px;
+    height: 355px;
+    background-size: cover;
+    background-image: linear-gradient(
+        rgba(66, 212, 53, 0.9),
+        rgba(66, 212, 53, 0.9)
+      ),
+      url("../Images/bg-img/insta3.jpg");
+    margin: 0 auto 15px;
+  }
+  footer p {
+    text-align: center;
+    margin: 20px;
+  }
+}
