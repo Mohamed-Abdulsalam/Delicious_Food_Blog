@@ -63,7 +63,7 @@ html {
 .article {
   width: 100%;
   height: 598px;
-  background-image: url(../Images/bg-img/bg6.jpg);
+  background-image: url(../images/bg-img/bg6.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -101,7 +101,7 @@ html {
   width: 520px;
   height: 238px;
   background-image: linear-gradient(to left, transparent, black),
-    url("../Images/bg-img/bg2.jpg");
+    url("../images/bg-img/bg2.jpg");
   background-size: cover;
 }
 
@@ -132,7 +132,7 @@ html {
   width: 520px;
   height: 238px;
   background-image: linear-gradient(to left, transparent, black),
-    url("../Images/bg-img/bg3.jpg");
+    url("../images/bg-img/bg3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -192,7 +192,7 @@ html {
   display: grid;
   grid-template-rows: repeat(1, max-content);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../Images/bg-img/bg4.jpg");
+    url("../images/bg-img/bg4.jpg");
   width: 100%;
   height: 640px;
   background-repeat: no-repeat;
@@ -343,7 +343,7 @@ html {
 }
 .subscribe .sub-photo {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../Images/bg-img/bg1.jpg);
+    url(../images/bg-img/bg1.jpg);
   background-size: cover;
   background-position: bottom;
   width: 370px;
@@ -388,7 +388,7 @@ html {
 }
 
 .special {
-  background-image: url(../Images/bg-img/add.png);
+  background-image: url(../images/bg-img/add.png);
   background-size: cover;
   width: 370px;
   height: 415px;
@@ -423,7 +423,7 @@ html {
       rgba(66, 212, 53, 0.9),
       rgba(66, 212, 53, 0.9)
     ),
-    url("../Images/bg-img/insta3.jpg");
+    url("../images/bg-img/insta3.jpg");
 }
 .footer .footer-1 .footer-photo .background-green i {
   color: white;
